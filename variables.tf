@@ -8,11 +8,6 @@ variable "aws_region" {
   description = "aws region"
 }
 
-variable "user_cidr" {
-  default     = "27.125.181.162/32"
-  description = "user cidr range"
-}
-
 variable "service" {
   default     = "jupyter"
   description = "name of service"
