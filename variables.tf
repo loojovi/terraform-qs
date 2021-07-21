@@ -1,5 +1,5 @@
 variable "aws_profile" {
-  default = "qs"
+  default = "default"
   description = "aws profile name in machine running terraform"
 }
 
@@ -24,5 +24,5 @@ variable "instance_type" {
 }
 
 variable "user_name" {
-  default = "qs-jovi"
+  default = "qs-jovi" # TOD: Change this so that resources created will be unique
 }

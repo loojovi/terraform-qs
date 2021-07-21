@@ -61,6 +61,10 @@ resource "aws_security_group" "jupyter" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+
+  tags = {
+    Name = "${var.user_name}"
+  }
 }
 
 resource "aws_instance" "jupyter" {
