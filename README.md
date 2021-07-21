@@ -6,7 +6,7 @@ This repo stores the terraform code to create infrastructure on AWS, in order to
 
 This Terraform will do the following automatically:
 
-1. Creates a key-pair and puts it in your working directory.
+1. Creates a key-pair and puts it in your working directory (Note: This is [not best practice](https://registry.terraform.io/providers/hashicorp/tls/latest/docs/resources/private_key), used only for expediency in this tutorial.).
 2. Creates a AWS Security Group that is pre-configured for Jupyter Notebooks.
 3. Creates a AWS Instance using the latest Amazon Linux 2 AMI.
 4. Downloads Anaconda
