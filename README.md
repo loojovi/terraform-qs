@@ -46,7 +46,7 @@ After Terraform has completed creating resources it will output the connection s
 
 After all the installation is complete, exit and enter the instance again. Run the command `jupyter notebook` to start up the notebook.
 
-## Tear down resources
+### Tear down resources
 
 After Terraform has completed creating resources it will output the connection string, which you'll use to connect with SSH. Wait for around 10-15 minutes for the script `script.sh` to finish
 
