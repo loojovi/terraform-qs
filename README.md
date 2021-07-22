@@ -48,12 +48,14 @@ After all the installation is complete, exit and enter the instance again. Run t
 
 ### Tear down resources
 
-After Terraform has completed creating resources it will output the connection string, which you'll use to connect with SSH. Wait for around 10-15 minutes for the script `script.sh` to finish
+Run the command to remove resources that were created by terraform script. 
 
 ```bash
 $ terraform destroy
 ```
-You can confirm that the resources are destroyed on the AWS console. If you are using Cloud9, please also delete the environment. 
+You can confirm that the resources are destroyed on the AWS console. 
+
+If you are using Cloud9, please also navigate to the Cloud9 page on AWS console, and delete the environment. Associated resources (EC2 instance, EBS volume, Security Group) will also be deleted.
 
 ## Credits
 
