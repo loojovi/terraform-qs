@@ -29,11 +29,10 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| <a name="input_aws_profile"></a> [aws\_profile](#input\_aws\_profile) | aws profile name in machine running terraform | `string` | `"qs"` | no |
-| <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | aws region | `string` | `"ap-southeast-1"` | no |
+| <a name="input_aws_profile"></a> [aws\_profile](#input\_aws\_profile) | aws profile name in machine running terraform | `string` | `"default"` | no |
+| <a name="input_aws_region"></a> [aws\_region](#input\_aws\_region) | aws region | `string` | `"us-east-1"` | no |
 | <a name="input_instance_type"></a> [instance\_type](#input\_instance\_type) | ec2 instance type for jupyter service | `string` | `"t2.micro"` | no |
 | <a name="input_service"></a> [service](#input\_service) | name of service | `string` | `"jupyter"` | no |
-| <a name="input_user_cidr"></a> [user\_cidr](#input\_user\_cidr) | user cidr range | `string` | `"27.125.181.162/32"` | no |
 | <a name="input_user_name"></a> [user\_name](#input\_user\_name) | n/a | `string` | `"qs-jovi"` | no |
 
 ## Outputs

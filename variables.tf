@@ -4,7 +4,7 @@ variable "aws_profile" {
 }
 
 variable "aws_region" {
-  default     = "ap-southeast-1"
+  default     = "us-east-1"
   description = "aws region"
 }
 
